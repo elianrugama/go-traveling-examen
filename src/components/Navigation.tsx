@@ -5,6 +5,7 @@ export const Navigation = () => {
 
 
     const links = [
+        
         { url: '/', label: 'Hoteles', icon: FaBed },
         { url: '/flights', label: 'Vuelos',  icon: MdAirplanemodeActive  },
         { url: '/transports', label: 'Transporte',  icon: FaBusAlt  },

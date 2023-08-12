@@ -5,6 +5,7 @@ import { Hotels } from "./pages/Hotels";
 import { Flights } from "./pages/Flights";
 import { Foods } from "./pages/Foods";
 import { Transports } from "./pages/Transports";
+import { Product } from "./pages/Product";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
             <Route
               path="/"
               element={<Hotels />}></Route>
+              <Route
+              path="/:id"
+              element={<Product />}></Route>
             <Route
               path="/flights"
               element={<Flights  />}></Route>
